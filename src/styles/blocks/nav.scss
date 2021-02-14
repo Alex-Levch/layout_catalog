@@ -1,9 +1,10 @@
 .nav {
-  display: flex;
+  display: grid;
   height: 60px;
   text-transform: uppercase;
   &__list {
-    @include flex_aligning($vertical: center);
+    @include grid_aligning(space-between, center);
+    grid-template-columns: repeat(8, auto);
     list-style: none;
     width: 100%;
     padding: 0;
