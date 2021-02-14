@@ -5,6 +5,12 @@
   margin: 0 auto;
 }
 
+@mixin grid_aligning($horizontal: null, $vertical: null) {
+  display: grid;
+  align-items: $vertical;
+  justify-content: $horizontal;
+}
+
 @mixin flex_aligning($horizontal: null, $vertical: null) {
   display: flex;
   align-items: $vertical;
