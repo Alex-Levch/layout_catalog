@@ -16,7 +16,7 @@
     border-radius: 5px;
     padding: 15px 0 10px;
     margin: 0 auto 20px;
-    transition: 1s ease-out;
+    transition: transform 1s ease-out, border-color 1s ease;
     &:hover {
       transform: scale(1.2);
       border-color: #f3f3f3;
