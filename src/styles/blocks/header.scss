@@ -1,13 +1,12 @@
 .header {
   @include grid_aligning(space-between, center);
   grid-template-columns: repeat(2, auto);
+  grid-column-gap: 50px;
   height: 60px;
-  margin: 0 auto;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   padding: 0 50px;
   &__promo {
     width: 40px;
     height: 40px;
-    margin-right: 40px;
   }
 }

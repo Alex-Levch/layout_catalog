@@ -1,9 +1,5 @@
-.wrapper {
-  margin: 0 24px 50px;
-}
 
 .card {
-
   @include grid_aligning($horizontal: center);
   width: 200px;
   border: 1px solid#f3f3f3;
