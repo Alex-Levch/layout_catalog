@@ -2,6 +2,7 @@
   display: grid;
   height: 60px;
   text-transform: uppercase;
+
   &__list {
     @include grid_aligning(space-between, center);
     grid-template-columns: repeat(8, auto);
@@ -25,12 +26,15 @@
     color: #000;
     padding: 23px 0;
     transition: color 0.3s;
+
     &:hover {
       color: $button_color;
     }
   }
+
   &__link--is-active {
     color: $button_color;
+
     &::after {
       content: "";
       display: block;
